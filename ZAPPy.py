@@ -86,7 +86,7 @@ def update_zoom_list(zoom_list, c_roster):
                 break
         if k==0:
             zoom_list[i].append("No match")
-    
+
     return zoom_list
 
 
@@ -212,7 +212,7 @@ def main():
 
     output_filename = 'Attendance.csv'
     canvas_file = 'Canvas_roster.csv'
-    no_matching_message = ["","","Zoom IDs below have no matching names in the Canvas Roster"]
+    no_matching_message = ["","","Zoom IDs below have no matching names in the Canvas Roster. If you recognize an ID, feel free to copy and paste it to the Column C of the corresponding student."]
 
 
     # Input file #1: Attendance.csv or Canvas roster
